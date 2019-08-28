@@ -26,7 +26,7 @@ vector<int> count_lines_in_files_transform(const vector<string>& files)
 
 vector<int> count_lines_in_files_transform2(const vector<string>& files)
 {
-	// Ç¥ÁØ ÄÄÆÄÀÏ·¯·Î ºôµå ¾ÈµÊ
+	// í‘œì¤€ ì»´íŒŒì¼ëŸ¬ë¡œ ë¹Œë“œ ì•ˆë¨
 	// http://pfultz2.com/blog/2014/09/05/pipable-functions/
 	return files | transform(count_lines);
 }
