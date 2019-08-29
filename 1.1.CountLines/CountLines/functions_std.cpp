@@ -1,12 +1,14 @@
 #include <string>
-#include <fstream>
 #include <vector>
+#include "functions_std.h"
+#include "functions_internal.h"
+#include <sstream>
 
 using namespace std;
 
 int count_lines(const string& filename)
 {
-	ifstream in(filename);
+	stringstream in(filename);
 
 	return count(
 		istreambuf_iterator<char>(in),

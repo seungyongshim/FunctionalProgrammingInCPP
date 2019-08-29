@@ -5,6 +5,13 @@ VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CountLines", "CountLines\CountLines.vcxproj", "{29BB55DE-92C3-4D9E-B11D-73C77CA0459B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CountLinesTests", "CountLinesTests\CountLinesTests.vcxproj", "{0D2B4660-CBFB-420A-BBE7-82C492958F6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F6D10FF7-76FA-418A-9F71-0DEE7E567FDB}"
+	ProjectSection(SolutionItems) = preProject
+		..\.editorconfig = ..\.editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +28,14 @@ Global
 		{29BB55DE-92C3-4D9E-B11D-73C77CA0459B}.Release|x64.Build.0 = Release|x64
 		{29BB55DE-92C3-4D9E-B11D-73C77CA0459B}.Release|x86.ActiveCfg = Release|Win32
 		{29BB55DE-92C3-4D9E-B11D-73C77CA0459B}.Release|x86.Build.0 = Release|Win32
+		{0D2B4660-CBFB-420A-BBE7-82C492958F6D}.Debug|x64.ActiveCfg = Debug|x64
+		{0D2B4660-CBFB-420A-BBE7-82C492958F6D}.Debug|x64.Build.0 = Debug|x64
+		{0D2B4660-CBFB-420A-BBE7-82C492958F6D}.Debug|x86.ActiveCfg = Debug|Win32
+		{0D2B4660-CBFB-420A-BBE7-82C492958F6D}.Debug|x86.Build.0 = Debug|Win32
+		{0D2B4660-CBFB-420A-BBE7-82C492958F6D}.Release|x64.ActiveCfg = Release|x64
+		{0D2B4660-CBFB-420A-BBE7-82C492958F6D}.Release|x64.Build.0 = Release|x64
+		{0D2B4660-CBFB-420A-BBE7-82C492958F6D}.Release|x86.ActiveCfg = Release|Win32
+		{0D2B4660-CBFB-420A-BBE7-82C492958F6D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

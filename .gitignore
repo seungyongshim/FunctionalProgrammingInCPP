@@ -1,2 +1,4 @@
 ﻿CountLines/.vs
 **/Debug
+**/.vs
+**/packages

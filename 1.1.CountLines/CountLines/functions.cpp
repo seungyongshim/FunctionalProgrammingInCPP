@@ -1,5 +1,5 @@
 #include <vector>
-#include <fstream>
+#include <sstream>
 #include "functions.h"
 
 using namespace std;
@@ -13,7 +13,7 @@ vector<int> count_lines_in_files(const vector<string>& files)
 	{
 		int line_count = 0;
 
-		ifstream in(file);
+		stringstream in(file);
 
 		while (in.get(c))
 		{
