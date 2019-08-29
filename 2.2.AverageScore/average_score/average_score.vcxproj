@@ -116,9 +116,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="average_score_command.cpp" />
+    <ClCompile Include="average_score_functional.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="average_score_command.h" />
+    <ClInclude Include="average_score_functional.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
