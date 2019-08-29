@@ -116,11 +116,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="functions.cpp" />
+    <ClCompile Include="functions_accumulate.cpp" />
     <ClCompile Include="functions_std.cpp" />
     <ClCompile Include="functions_transform.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions.h" />
+    <ClInclude Include="functions_accumulate.h" />
     <ClInclude Include="functions_internal.h" />
     <ClInclude Include="functions_std.h" />
     <ClInclude Include="functions_transform.h" />
